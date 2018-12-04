@@ -1,0 +1,42 @@
+<HTML>
+<HEAD>
+<TITLE>..:: Trabalhando com tabelas ::..</TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="Wellington Marinheiro">
+<BODY>
+<%
+pag = Split(Request.ServerVariables("SCRIPT_NAME"),"/")
+If request.querystring("xy") = "" then%>
+ 
+	<form name="form" action="<%=pag(UBound(pag))%>?xy=1" method="POST">
+	<table width="400" border="1" align="center" style="border-collapse: collapse">
+		<TR bgcolor="#C4C4C4">
+			<Th>Determinando a quantidade de colunas da tabela</Th>
+		<TR>
+			<td>Quantidade de colunas da tabela: <input type="text" name="col" size="5" value="30">
+		<TR>
+			<td>Quantidade de numeros para preencher a tabela:<input type="text" name="quant" size="5"  value="100">
+		<TR>
+			<TD align=center>
+			<INPUT TYPE="submit" value="Exibir tabela">
+	</table>
+	</form>
+<%
+Else
+ 
+	response.write "<A HREF="& pag(UBound(pag)) & ">Nova consulta</A><HR>"
+	response.write "Colunas: "  & Int(request.Form("col")) & "<br>"
+	response.write "<center><table border='1' style='border-collapse: collapse'><tr bgcolor=#E5E5E5>"
+	
+	For x=1 To Int(request.Form("col")): response.write "<th>" & x: next
+ 
+	response.write "<tr>"
+	
+	For x=1 To Int(request.Form("quant"))
+		response.write "<td>" & x
+		If (x Mod Int(request.Form("col"))=0) Then response.write "<tr>"
+	next
+ 
+	response.write "</table></center>"
+End if
+%>

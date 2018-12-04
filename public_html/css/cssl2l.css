@@ -1,0 +1,143 @@
+ body{
+    margin:0px;
+    background-color:#F8F8FF;   
+    background-repeat:no-repeat;
+    background-size: 100%;
+    font-family: Arial,Helvetica;
+    background-attachment:fixed; 
+     }
+.estante{
+    position:absolute;    
+        }
+.logo{
+    width:50px;
+    height:50px;
+    float:left;
+    margin-left: 5px;
+     }
+.outros{
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+       }
+.perfil{
+    float: right;
+    margin-right: 20px;
+       }
+.agenda{
+    position:relative;
+    margin-top: 2px;
+    margin-left: 75px;
+    float:left;
+    font-family: Arial;
+    font-size: 12px;
+    color:black;
+        }
+.lembrete{
+    position:relative;
+    margin-top: 14px;
+    margin-right: 75px;
+    float:right;
+    font-family: Arial;
+    font-size: 12px;
+    color:black;
+         }
+.hr_escolar{
+    position:relative;
+    margin-top: 14px;
+    margin-left: 75px;
+    float:left;
+    font-family: Arial;
+    font-size: 12px;
+    color:black;
+    }
+.anotacoes{
+    position:relative;
+    margin-top: 2px;
+    margin-right: 75px;
+    float:right;
+    font-family: Arial;
+    font-size: 12px;
+    color:black;
+          }
+.grafico{
+    position:relative;
+    margin-top: 25px;
+   margin-left: 75px;
+    float:left;
+    font-family: Arial;
+    font-size: 12px;
+    color:black;
+    }
+.materias{
+    position:relative;
+    margin-top: 25px;
+    margin-right: 75px;
+    float:right;
+    font-family: Arial;
+    font-size: 12px;
+    color:black;
+         }
+.mensagem{
+    position:relative;
+    margin-top: 25px;
+    margin-right: 75px;
+    float:right;  
+    font-family: Arial;
+    font-size: 12px;
+    color:black;
+         }
+.avatar{
+    position:relative;
+    margin-top: 25px;
+    margin-left: 75px;
+    float:left;  
+    font-family: Arial;
+    font-size: 12px;
+    color:black;
+         }
+.faixa{
+    background-color:orange;
+    height: 50px;} 
+.logo_entrada{
+    width:50px;
+    height:50px;
+    float:right;
+    margin-right: 5px;
+            }
+.voltar{
+    width:50px;
+    height:50px;
+    float:left;
+    margin-top: 5px;
+    margin-left: 5px;
+            }
+.fonte_titulo{
+    font-family: Arial,Helvetica;
+    color:white;
+             }
+.logo_bem_vindo{
+    margin-top: 50px;    
+                }
+.name_bem_vindo{
+    margin-top: 50px;
+               }
+.form_entrar{
+    margin-top: 10px;                
+            }
+.cadastre_se_bem_vindo{
+    color:white;
+    font:arial,helvetica;
+                      }
+.avatares{
+    margin-top: 20px;
+    font-family: Arial,Helvetica;
+    color:black; 
+    font-size: 25px;
+         } 
+.caixas{
+    margin-right:15px;
+    margin-left:10px;
+         }
+//quickmemo+
+//trabalhos coorelatos
